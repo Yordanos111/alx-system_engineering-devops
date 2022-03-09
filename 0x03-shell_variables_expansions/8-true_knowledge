@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $TRUEKNOWLEDGE/n | export d="$TRUEKNOWLEDGE" | echo $((128+d))
+echo $(($TRUEKNOWLEDGE+128))
