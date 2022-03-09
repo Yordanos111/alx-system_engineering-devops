@@ -1,2 +1,2 @@
 #!/bin/bash
-ls ubuntu | tr ' ' '\n' | cut -f1
+paste -- | cut -f1:wq
