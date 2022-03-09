@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -- | cut -f1:wq
+paste -d, - - | cut -d, -f1
