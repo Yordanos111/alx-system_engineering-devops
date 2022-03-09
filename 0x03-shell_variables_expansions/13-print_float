@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $NUM | tr ' ' '\n | cut '%0.2f'
